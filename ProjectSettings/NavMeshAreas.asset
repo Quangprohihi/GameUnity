@@ -11,9 +11,9 @@ NavMeshProjectSettings:
     cost: 1
   - name: Jump
     cost: 2
-  - name: DuongXe
+  - name: DuongXeXuong
     cost: 1
-  - name: 
+  - name: DuongXeLen
     cost: 1
   - name: 
     cost: 1

@@ -11,6 +11,7 @@ public class ShipperManager : MonoBehaviour
 
     [Header("TRẠNG THÁI GIAO HÀNG")]
     public bool dangGiaoHang = false;
+    public bool daLayHang = false;
 
     [Header("GIAO DIỆN (Kéo thả vào đây)")]
     public TextMeshProUGUI textTienUI;
@@ -36,8 +37,33 @@ public class ShipperManager : MonoBehaviour
 
     public void NhanDonHang()
     {
+        if (dangGiaoHang) return;
+
         dangGiaoHang = true;
-        Debug.Log("Shipper: Đã lấy hàng! Đang tìm nhà khách...");
+        daLayHang = false;
+        Debug.Log("Shipper: Đã nhận yêu cầu! Hãy đến gian hàng để mua đồ.");
+
+        if (heThongNhiemVu != null && heThongNhiemVu.khachHang != null)
+        {
+            KhachHangDiChuyen khach = heThongNhiemVu.khachHang.GetComponent<KhachHangDiChuyen>();
+            if (khach != null)
+            {
+                khach.BatDauDiRoiDi();
+            }
+        }
+
+        if (heThongNhiemVu != null)
+        {
+            heThongNhiemVu.TrangThaiDiLayHang();
+        }
+    }
+
+    public void LayHangTaiGian()
+    {
+        if (!dangGiaoHang || daLayHang) return;
+
+        daLayHang = true;
+        Debug.Log("Shipper: Đã mua xong vật phẩm! Hãy đi giao cho khách.");
 
         if (tuiDo != null)
         {
@@ -53,6 +79,7 @@ public class ShipperManager : MonoBehaviour
     public void HoanThanhDonHang(float tienThuong)
     {
         dangGiaoHang = false;
+        daLayHang = false;
         tienHienCo += tienThuong;
 
         CapNhatTienUI();

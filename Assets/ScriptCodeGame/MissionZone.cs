@@ -2,7 +2,7 @@
 
 public class MissionZone : MonoBehaviour
 {
-    public enum LoaiZone { DiemLayHang, DiemTraHang }
+    public enum LoaiZone { DiemA, GianHangLayHang, DiemTraHang }
 
     [Header("Cấu hình Nhiệm vụ")]
     public LoaiZone loaiZone;
@@ -16,6 +16,16 @@ public class MissionZone : MonoBehaviour
     {
         if (other.CompareTag("Player"))
         {
+            if (loaiZone == LoaiZone.DiemA)
+            {
+                MissionManager mission = FindFirstObjectByType<MissionManager>();
+                if (mission != null) mission.NguoiChoiVaoDiemA();
+            }
+            else if (loaiZone == LoaiZone.GianHangLayHang)
+            {
+                Debug.Log("[Mission] Người chơi đã đến gian hàng: " + gameObject.name);
+            }
+
             ShipperManager shipper = FindFirstObjectByType<ShipperManager>();
 
             if (shipper != null)
@@ -25,10 +35,21 @@ public class MissionZone : MonoBehaviour
         }
     }
 
+    private void OnTriggerExit(Collider other)
+    {
+        if (!other.CompareTag("Player")) return;
+
+        if (loaiZone == LoaiZone.DiemA)
+        {
+            MissionManager mission = FindFirstObjectByType<MissionManager>();
+            if (mission != null) mission.NguoiChoiRaDiemA();
+        }
+    }
+
     void XuLyNhiemVu(ShipperManager shipper)
     {
         // TRƯỜNG HỢP 1: Tại điểm LẤY HÀNG (A)
-        if (loaiZone == LoaiZone.DiemLayHang)
+        if (loaiZone == LoaiZone.GianHangLayHang)
         {
             // --- THÊM PHẦN HIỆN HƯỚNG DẪN Ở ĐÂY ---
             // Nếu có bảng hướng dẫn và người chơi chưa xem bao giờ
@@ -40,16 +61,16 @@ public class MissionZone : MonoBehaviour
             }
             // --------------------------------------
 
-            if (!shipper.dangGiaoHang)
+            if (shipper.dangGiaoHang && !shipper.daLayHang)
             {
-                shipper.NhanDonHang();
-                Debug.Log("Đã nhận đơn! Hãy chạy đến điểm giao hàng.");
+                shipper.LayHangTaiGian();
+                Debug.Log("Đã mua xong ở gian hàng! Hãy chạy đến điểm giao hàng.");
             }
         }
         // TRƯỜNG HỢP 2: Tại điểm TRẢ HÀNG (B)
         else if (loaiZone == LoaiZone.DiemTraHang)
         {
-            if (shipper.dangGiaoHang)
+            if (shipper.dangGiaoHang && shipper.daLayHang)
             {
                 shipper.HoanThanhDonHang(tienThuong);
             }
