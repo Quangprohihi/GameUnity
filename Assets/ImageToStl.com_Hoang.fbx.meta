@@ -1,0 +1,436 @@
+fileFormatVersion: 2
+guid: 9905a0393bbdc444abee085a08cc27bc
+ModelImporter:
+  serializedVersion: 24200
+  internalIDToNameTable: []
+  externalObjects: {}
+  materials:
+    materialImportMode: 2
+    materialName: 0
+    materialSearch: 1
+    materialLocation: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    importAnimatedCustomProperties: 0
+    importConstraints: 0
+    animationCompression: 3
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    extraUserProperties: []
+    clipAnimations: []
+    isReadable: 0
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    keepQuads: 0
+    weldVertices: 1
+    bakeAxisConversion: 0
+    preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    generateMeshLods: 0
+    meshLodGenerationFlags: 0
+    maximumMeshLod: -1
+    meshOptimizationFlags: -1
+    indexFormat: 0
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 1
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+    strictVertexDataChecks: 0
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
+  importAnimation: 1
+  humanDescription:
+    serializedVersion: 3
+    human:
+    - boneName: node_fa901863_5c7c_42d9_acc5_9170c7a90a7e
+      humanName: Hips
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_de15a83d_ab3c_4f27_bb64_52eb7b1e4f59
+      humanName: LeftUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_d81491ab_9a45_4e85_9804_de82cd5b4cd8
+      humanName: RightUpperLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_7921c2e1_33e3_4b66_99cc_7c1c926c6b0f
+      humanName: LeftLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_183a0786_3fca_4ef4_9197_f27b2ce3507d
+      humanName: RightLowerLeg
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_58a62b9a_b04d_444c_85b3_d1c865b7a052
+      humanName: LeftFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_81c7276a_abf0_430e_830f_2559ee878728
+      humanName: RightFoot
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_e24cb2df_ad3a_45b7_b618_796c188f808d
+      humanName: Spine
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_e9937625_3670_4a70_ae58_4de5698b4283
+      humanName: Chest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_f567e0b5_3aac_4063_8fa9_6c06975be95b
+      humanName: Neck
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_ebae3b5c_0ede_4687_8f64_c7de491b6482
+      humanName: Head
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_068069da_d6e1_4742_9a68_2df9c705e8a0
+      humanName: LeftShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_68ee4c86_bc98_44b0_b287_dbf02e4ef8c5
+      humanName: RightShoulder
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_e8676a62_b7f3_422e_ba1a_0402825f8aca
+      humanName: LeftUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_5d4543dd_1824_4786_8987_d26e8cbd0eb3
+      humanName: RightUpperArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_81bd1cf0_e298_4681_a293_3207b5cc1aea
+      humanName: LeftLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_15bd10a2_5ee7_4fbf_8a24_18a841f43535
+      humanName: RightLowerArm
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_8ef91bef_8a1b_4537_9561_b79d07896a47
+      humanName: LeftHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_562f0536_6118_4b46_b9b6_7edb71e7b2c2
+      humanName: RightHand
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_b722fed7_0954_4042_9419_7dc8e6b332bc
+      humanName: LeftToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_790a6d83_68ad_42c8_87c4_696d7a59059f
+      humanName: RightToes
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    - boneName: node_452a0324_e668_494f_82a1_a35c9bc9b95a
+      humanName: UpperChest
+      limit:
+        min: {x: 0, y: 0, z: 0}
+        max: {x: 0, y: 0, z: 0}
+        value: {x: 0, y: 0, z: 0}
+        length: 0
+        modified: 0
+    skeleton:
+    - name: ImageToStl.com_Hoang(Clone)
+      parentName: 
+      position: {x: 0, y: 0, z: 0}
+      rotation: {x: 0, y: 0, z: 0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: Camera
+      parentName: ImageToStl.com_Hoang(Clone)
+      position: {x: -7.3588915, y: 4.958309, z: 6.925791}
+      rotation: {x: 0.09062847, y: 0.89379627, z: -0.20997298, w: 0.3857799}
+      scale: {x: 100, y: 100.00001, z: 99.99999}
+    - name: Light
+      parentName: ImageToStl.com_Hoang(Clone)
+      position: {x: -4.0762453, y: 5.903862, z: -1.005454}
+      rotation: {x: 0.52327543, y: -0.34203392, z: 0.72694236, w: 0.28416622}
+      scale: {x: 100.00001, y: 100, z: 100}
+    - name: node_2da84311_04d2_42bc_9702_2bfc9633c846
+      parentName: ImageToStl.com_Hoang(Clone)
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: -0.00000003774895, y: 0, z: -0, w: 1}
+      scale: {x: 100, y: 100, z: 100}
+    - name: node_891572a4_ca50_4213_9662_38ec1a1097f0
+      parentName: node_2da84311_04d2_42bc_9702_2bfc9633c846
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_fa901863_5c7c_42d9_acc5_9170c7a90a7e
+      parentName: node_891572a4_ca50_4213_9662_38ec1a1097f0
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_b349ab10_ddb9_47ce_bdc0_f2589674cb71
+      parentName: node_fa901863_5c7c_42d9_acc5_9170c7a90a7e
+      position: {x: 0.0000027096207, y: 0.005942764, z: -0.00011793202}
+      rotation: {x: -0.05337593, y: 0.00012341827, z: -0.0023089552, w: 0.9985718}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_d81491ab_9a45_4e85_9804_de82cd5b4cd8
+      parentName: node_b349ab10_ddb9_47ce_bdc0_f2589674cb71
+      position: {x: 0.00054491294, y: -0.00035703057, z: 0.00007616422}
+      rotation: {x: -0.00021040354, y: -0.058560416, z: 0.9980538, w: -0.021431498}
+      scale: {x: 1.0000006, y: 1, z: 1.0000049}
+    - name: node_183a0786_3fca_4ef4_9197_f27b2ce3507d
+      parentName: node_d81491ab_9a45_4e85_9804_de82cd5b4cd8
+      position: {x: -0.0000009560584, y: 0.00256714, z: 0.0000042660417}
+      rotation: {x: -0.004578205, y: 0.0013035972, z: -0.017079918, w: 0.9998428}
+      scale: {x: 1, y: 0.99999994, z: 0.99999994}
+    - name: node_81c7276a_abf0_430e_830f_2559ee878728
+      parentName: node_183a0786_3fca_4ef4_9197_f27b2ce3507d
+      position: {x: -0.0000023467837, y: 0.0023075342, z: -0.0000049442147}
+      rotation: {x: 0.47961825, y: -0.038406305, z: 0.060418203, w: 0.87455183}
+      scale: {x: 1, y: 0.99999994, z: 1}
+    - name: node_790a6d83_68ad_42c8_87c4_696d7a59059f
+      parentName: node_81c7276a_abf0_430e_830f_2559ee878728
+      position: {x: 0.0000014089793, y: 0.0012015934, z: -0.000005388781}
+      rotation: {x: 0.32544833, y: -0.047953904, z: 0.029906861, w: 0.9438694}
+      scale: {x: 1.0000001, y: 0.9999999, z: 1}
+    - name: node_de15a83d_ab3c_4f27_bb64_52eb7b1e4f59
+      parentName: node_b349ab10_ddb9_47ce_bdc0_f2589674cb71
+      position: {x: -0.0005619791, y: -0.00034564306, z: 0.000045810746}
+      rotation: {x: 0.00004049086, y: -0.05758037, z: 0.99809045, w: 0.022361102}
+      scale: {x: 1.0000005, y: 1.0000002, z: 1.000003}
+    - name: node_7921c2e1_33e3_4b66_99cc_7c1c926c6b0f
+      parentName: node_de15a83d_ab3c_4f27_bb64_52eb7b1e4f59
+      position: {x: -0.0000000796467, y: 0.0025807505, z: 0.0000029981509}
+      rotation: {x: -0.0018368543, y: -0.0023028115, z: 0.014998814, w: 0.9998832}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1}
+    - name: node_58a62b9a_b04d_444c_85b3_d1c865b7a052
+      parentName: node_7921c2e1_33e3_4b66_99cc_7c1c926c6b0f
+      position: {x: -0.00000022523105, y: 0.0023100174, z: -0.0000023732055}
+      rotation: {x: 0.4767807, y: 0.047017667, z: -0.06815783, w: 0.8751137}
+      scale: {x: 0.9999998, y: 0.99999994, z: 1.0000001}
+    - name: node_b722fed7_0954_4042_9419_7dc8e6b332bc
+      parentName: node_58a62b9a_b04d_444c_85b3_d1c865b7a052
+      position: {x: 0.000004144534, y: 0.0011920487, z: -0.000001658313}
+      rotation: {x: 0.32660377, y: 0.057315104, z: -0.026044715, w: 0.94306237}
+      scale: {x: 0.99999994, y: 1.0000001, z: 0.9999998}
+    - name: node_e24cb2df_ad3a_45b7_b618_796c188f808d
+      parentName: node_b349ab10_ddb9_47ce_bdc0_f2589674cb71
+      position: {x: 0.0000054709717, y: 0.00064777833, z: -0.000014499239}
+      rotation: {x: 0.0075439173, y: -0.00019494598, z: -0.0062591154, w: 0.99995196}
+      scale: {x: 0.9999999, y: 1.0000001, z: 1}
+    - name: node_e9937625_3670_4a70_ae58_4de5698b4283
+      parentName: node_e24cb2df_ad3a_45b7_b618_796c188f808d
+      position: {x: 0.0000033942563, y: 0.00072876713, z: 0.00000078778714}
+      rotation: {x: 0.043162428, y: 0.00024840844, z: 0.005312501, w: 0.99905396}
+      scale: {x: 1, y: 1.0000001, z: 1.0000002}
+    - name: node_452a0324_e668_494f_82a1_a35c9bc9b95a
+      parentName: node_e9937625_3670_4a70_ae58_4de5698b4283
+      position: {x: -0.00000018105841, y: 0.00084972545, z: -0.0000037459656}
+      rotation: {x: 0.039908495, y: 0.00053075457, z: 0.006428209, w: 0.9991825}
+      scale: {x: 1, y: 1, z: 0.99999994}
+    - name: node_68ee4c86_bc98_44b0_b287_dbf02e4ef8c5
+      parentName: node_452a0324_e668_494f_82a1_a35c9bc9b95a
+      position: {x: 0.00041018007, y: 0.0008191235, z: 0.000008272007}
+      rotation: {x: -0.5657731, y: -0.38184077, z: 0.58321905, w: -0.440402}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: node_5d4543dd_1824_4786_8987_d26e8cbd0eb3
+      parentName: node_68ee4c86_bc98_44b0_b287_dbf02e4ef8c5
+      position: {x: 0.0000014737434, y: 0.0008684009, z: 0.000006105788}
+      rotation: {x: -0.13259842, y: 0.011241791, z: 0.020334149, w: 0.9908975}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_15bd10a2_5ee7_4fbf_8a24_18a841f43535
+      parentName: node_5d4543dd_1824_4786_8987_d26e8cbd0eb3
+      position: {x: 0.000008775405, y: 0.0014520478, z: 0.0000048010797}
+      rotation: {x: -0.054953985, y: -0.0007815213, z: -0.0018321419, w: 0.99848694}
+      scale: {x: 0.9999999, y: 0.9999999, z: 0.9999999}
+    - name: node_562f0536_6118_4b46_b9b6_7edb71e7b2c2
+      parentName: node_15bd10a2_5ee7_4fbf_8a24_18a841f43535
+      position: {x: 0.00006, y: 0.0019, z: 0.00007}
+      rotation: {x: -0.0022294836, y: -0.000793141, z: 0.009756651, w: 0.99994963}
+      scale: {x: 0.99999994, y: 0.99999994, z: 0.99999994}
+    - name: node_068069da_d6e1_4742_9a68_2df9c705e8a0
+      parentName: node_452a0324_e668_494f_82a1_a35c9bc9b95a
+      position: {x: -0.00041349034, y: 0.00082580117, z: 0.0000019593165}
+      rotation: {x: 0.5662811, y: -0.3817555, z: 0.5774448, w: 0.4473768}
+      scale: {x: 1.0000001, y: 1, z: 1.0000001}
+    - name: node_e8676a62_b7f3_422e_ba1a_0402825f8aca
+      parentName: node_068069da_d6e1_4742_9a68_2df9c705e8a0
+      position: {x: -0.0000023143366, y: 0.00087826466, z: 0.0000019918382}
+      rotation: {x: -0.14371474, y: -0.013858301, z: -0.00581929, w: 0.98950505}
+      scale: {x: 0.99999994, y: 1, z: 0.9999999}
+    - name: node_81bd1cf0_e298_4681_a293_3207b5cc1aea
+      parentName: node_e8676a62_b7f3_422e_ba1a_0402825f8aca
+      position: {x: 0, y: 0.00148, z: -0.00001}
+      rotation: {x: -0.027624175, y: -0.004501676, z: 0.0020939584, w: 0.999606}
+      scale: {x: 1, y: 1, z: 1.0000002}
+    - name: node_8ef91bef_8a1b_4537_9561_b79d07896a47
+      parentName: node_81bd1cf0_e298_4681_a293_3207b5cc1aea
+      position: {x: -0.00003, y: 0.00165, z: 0.00001}
+      rotation: {x: -0.013952701, y: 0.0029515103, z: -0.014601025, w: 0.9997917}
+      scale: {x: 0.9999998, y: 0.9999998, z: 0.99999994}
+    - name: node_f567e0b5_3aac_4063_8fa9_6c06975be95b
+      parentName: node_452a0324_e668_494f_82a1_a35c9bc9b95a
+      position: {x: 0.0000043453206, y: 0.00095829606, z: -0.0000047758035}
+      rotation: {x: -0.002188958, y: 0.00036005807, z: 0.0049725147, w: 0.9999852}
+      scale: {x: 1.0000001, y: 1.0000001, z: 1}
+    - name: node_ebae3b5c_0ede_4687_8f64_c7de491b6482
+      parentName: node_f567e0b5_3aac_4063_8fa9_6c06975be95b
+      position: {x: -0.000007840934, y: 0.0005469112, z: 0.00015408194}
+      rotation: {x: -0.07061188, y: 0.0000086439595, z: -0.014803846, w: 0.997394}
+      scale: {x: 0.9999998, y: 1, z: 1}
+    - name: node_f633b9a0_0474_46f6_812c_18b1fe4c076e
+      parentName: node_fa901863_5c7c_42d9_acc5_9170c7a90a7e
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    - name: node_f633b9a0_0474_46f6_812c_18b1fe4c076e_mesh0
+      parentName: node_f633b9a0_0474_46f6_812c_18b1fe4c076e
+      position: {x: -0, y: 0, z: 0}
+      rotation: {x: 0, y: -0, z: -0, w: 1}
+      scale: {x: 1, y: 1, z: 1}
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    globalScale: 1
+    rootMotionBoneName: 
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
+  animationType: 3
+  humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
+  importBlendShapeDeformPercent: 1
+  remapMaterialsIfMaterialImportModeIsNone: 0
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
