@@ -27,6 +27,9 @@ public class MissionManager : MonoBehaviour
     [Header("--- LA BÀN ---")]
     public ChiDuong muiTenChiDuong;
 
+    [Header("--- CHẾ BIẾN MÓN ---")]
+    public StallCookingManager heThongCheBien;
+
     [Header("--- UI LỜI NHẮN ---")]
     public GameObject oLoiNhan;
     public TextMeshProUGUI textNoiDung;
@@ -169,12 +172,14 @@ public class MissionManager : MonoBehaviour
     {
         npcDangDiToiDiemA = false;
 
+        string tenMon = heThongCheBien != null ? heThongCheBien.GetTenMonDangYeuCau() : "món khách gọi";
+
         if (oLoiNhan != null)
         {
             oLoiNhan.SetActive(true);
             if (textNoiDung != null)
             {
-                textNoiDung.text = "Đi đến gian hàng để mua vật phẩm khách cần.";
+                textNoiDung.text = "Đến gian hàng và chế biến: " + tenMon;
             }
         }
 
@@ -229,6 +234,17 @@ public class MissionManager : MonoBehaviour
             muiTenChiDuong.gameObject.SetActive(true);
             muiTenChiDuong.mucTieu = npcGianHangDangMucTieu.transform;
         }
+    }
+
+    public void BatDauCheBienTaiQuay()
+    {
+        if (heThongCheBien == null)
+        {
+            Debug.LogWarning("MissionManager: Chưa gán StallCookingManager.");
+            return;
+        }
+
+        heThongCheBien.MoBangCheBien();
     }
 
     public void TrangThaiDiGiaoHang()

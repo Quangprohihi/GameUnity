@@ -63,8 +63,12 @@ public class MissionZone : MonoBehaviour
 
             if (shipper.dangGiaoHang && !shipper.daLayHang)
             {
-                shipper.LayHangTaiGian();
-                Debug.Log("Đã mua xong ở gian hàng! Hãy chạy đến điểm giao hàng.");
+                MissionManager mission = FindFirstObjectByType<MissionManager>();
+                if (mission != null)
+                {
+                    mission.BatDauCheBienTaiQuay();
+                    Debug.Log("[Mission] Đã vào quầy chế biến. Hãy chọn đủ nguyên liệu để hoàn thành món.");
+                }
             }
         }
         // TRƯỜNG HỢP 2: Tại điểm TRẢ HÀNG (B)

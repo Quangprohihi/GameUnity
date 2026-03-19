@@ -41,6 +41,12 @@ public class ShipperManager : MonoBehaviour
 
         dangGiaoHang = true;
         daLayHang = false;
+
+        if (heThongNhiemVu != null && heThongNhiemVu.heThongCheBien != null)
+        {
+            heThongNhiemVu.heThongCheBien.TaoDonMoiNgauNhien();
+        }
+
         Debug.Log("Shipper: Đã nhận yêu cầu! Hãy đến gian hàng để mua đồ.");
 
         if (heThongNhiemVu != null && heThongNhiemVu.khachHang != null)
@@ -110,6 +116,21 @@ public class ShipperManager : MonoBehaviour
             }
             // ===============================================================
 
+            heThongNhiemVu.TrangThaiChoNhanDon();
+        }
+    }
+
+    public void HuyDonHang()
+    {
+        if (!dangGiaoHang) return;
+
+        dangGiaoHang = false;
+        daLayHang = false;
+
+        Debug.Log("Shipper: Đơn hàng bị hủy do hết thời gian chế biến.");
+
+        if (heThongNhiemVu != null)
+        {
             heThongNhiemVu.TrangThaiChoNhanDon();
         }
     }
